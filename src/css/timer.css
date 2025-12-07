@@ -1,0 +1,50 @@
+#datetime-picker {
+    width: 252px;
+    height: 24px;
+    padding: 8px 10px;
+    border: 1px solid #bfc3c8;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#datetime-picker:hover {
+    border-color: #8d8f92;
+}
+
+#datetime-picker:focus {
+    border-color: #4b7cff;
+}
+
+button:hover {
+    background: #6c8cff;
+}
+
+button:disabled,
+input:disabled {
+    background: #d6d6d6;
+    border: 1px solid #8c8c8c;
+    color: #8c8c8c;
+}
+
+.timer {
+    display: flex;
+    justify-content: left;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.field {
+    text-align: center;
+}
+
+.value {
+    font-size: 40px;
+    display: block;
+}
+
+.label {
+    text-transform: uppercase;
+    font-size: 12px;
+}
